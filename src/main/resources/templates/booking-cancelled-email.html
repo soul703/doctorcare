@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Lịch hẹn đã bị hủy</title><!-- Thêm style --></head>
+<body>
+<div class="container">
+    <h2>Thông báo hủy lịch hẹn</h2>
+    <p>Xin chào <strong th:text="${patientName}">Tên Bệnh nhân</strong>,</p>
+    <p>Chúng tôi rất tiếc phải thông báo rằng lịch hẹn của bạn với <strong th:text="${doctorName}"></strong> vào lúc <strong th:text="${bookingTime}">, ngày <span th:text="${bookingDate}"></span></strong> đã bị hủy.</p>
+    <p><strong>Lý do:</strong> <em th:text="${reason}"></em></p>
+    <p>Chúng tôi thành thật xin lỗi vì sự bất tiện này. Vui lòng truy cập lại trang web của chúng tôi để đặt một lịch hẹn khác. Cảm ơn bạn.</p>
+    <p>Trân trọng,<br/>Đội ngũ DoctorCare</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Lịch hẹn đã được xác nhận</title><!-- Thêm style tương tự email reset password --></head>
+<body>
+<div class="container">
+    <h2>Lịch hẹn của bạn đã được xác nhận!</h2>
+    <p>Xin chào <strong th:text="${patientName}">Tên Bệnh nhân</strong>,</p>
+    <p>Chúng tôi vui mừng thông báo rằng lịch hẹn của bạn với <strong th:text="${doctorName}"></strong> đã được xác nhận.</p>
+    <ul>
+        <li><strong>Thời gian:</strong> <span th:text="${bookingTime}"></span>, ngày <span th:text="${bookingDate}"></span></li>
+        <li><strong>Phòng khám:</strong> <span th:text="${clinicName}"></span></li>
+        <li><strong>Địa chỉ:</strong> <span th:text="${clinicAddress}"></span></li>
+    </ul>
+    <p>Vui lòng đến trước giờ hẹn 15 phút để làm thủ tục. Cảm ơn bạn đã tin tưởng dịch vụ của chúng tôi.</p>
+    <p>Trân trọng,<br/>Đội ngũ DoctorCare</p>
+</div>
+</body>
+</html>
