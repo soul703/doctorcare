@@ -1,3 +1,4 @@
+
 # DoctorCare - Hệ thống Đặt lịch khám bệnh Online (Backend)
 
 ![Java](https://img.shields.io/badge/Java-21-blue.svg)
@@ -156,3 +157,6 @@ Bạn có thể sử dụng giao diện Swagger để xem chi tiết tất cả 
 *   **Bệnh nhân:**
     *   Email: `patient.an@gmail.com`, Mật khẩu: `patient123`
     *   Email: `patient.binh@gmail.com`, Mật khẩu: `patient123`
+        =======
+# doctorcare
+>>>>>>> a802ec6269d7948f4b0f4db8b823f52c55224197
